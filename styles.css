@@ -1,0 +1,138 @@
+
+:root{
+    --primary-color:#4047F0;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#mainContainer{
+    margin: 20px auto auto auto;
+}
+#main{
+    height:500px;
+    margin: 0;
+    border: 1px solid grey;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow:0 10px 50px 0 rgb(0 0 0 / 40%);
+}
+.form-header{
+    color: var(--primary-color);
+    margin-top: 10px;
+    margin-right: 220px;
+}
+#header{
+    padding: 0;
+}
+#title{
+    background-color: var(--primary-color);
+    border-radius: 10px 10px 0px 0px;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+#card-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid grey;
+    height: 100%;
+    padding-left:90px;
+}
+.form-box{
+    width: 100%;
+}
+.section-right{
+    border-bottom-right-radius: 10px;
+}
+.section-left{
+    border-bottom-left-radius: 10px;
+}
+.id-info{
+    position: relative;
+    margin: 5px 5px;
+    font-family: FontAwesome;
+}
+.form-label{
+    display:block;
+    margin-top: 10px;
+    margin-bottom:5px;
+    font-weight: bold;
+}
+label{
+    font-weight:bold;
+    font-family: FontAwesome;
+}
+.form-input{
+    border-radius: 5px;
+    justify-content: center;
+    padding: 3px;
+}
+i {
+    position: absolute;
+    left: 5px;
+    top: 38px;
+    color: grey;
+}
+.id-photo{
+    margin-top: 12px
+}
+#image{
+    margin-top:6px;
+}
+#picture{
+    margin: 10px;
+}
+
+/*Card elements*/
+#generatedCard{
+    display: none;
+    margin: auto;
+}
+.id-card{
+    background-color:rgb(245, 249, 252);
+    box-shadow: 0 20px 50px 0 rgb(0 0 0 / 40%);
+    display: flex;
+    border-radius:10px;
+    width: 85%;
+    height: 30%;
+    margin: auto;
+}
+.sub-title{
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: flex;
+    color: black;
+}
+.image{
+    background:linear-gradient(to top,var(--primary-color),#8f94fb);
+    display: flex;
+    justify-content: center;
+    width: 30%;;
+    border-radius: 10px 0px 0px 10px;
+}
+#cardImage{
+    border-radius:40px;
+    text-align: center;
+    width:70%;
+    height:;
+    padding:10px;
+    margin: auto;
+}
+.user-info{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 0;
+}
+.card-element{
+    margin: 10px;
+}
+.card-input{
+    font-weight: bold;
+}
+.card-tag{
+    color: grey;
+    font-weight:bold;
+}
